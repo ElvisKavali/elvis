@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+    color: beige;
+    font-size: 32px;
+}
+h1{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.2rem;
+}
+.class{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+}
+h1{
+    text-align: center;
+}
+.img-text{
+    text-align: center;
+    width: 500px;
+    height: 200px;
+}
+.class2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.class1{
+    text-align: center;
+    width: 500px;
+    height: 200px;
+}
+.joe {
+    background-color: antiquewhite;
+    height: 30px;
+    justify-content: center;
+    
+}
+
+.joe1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    
+
+
+}
+button{
+    border-radius: 4px;
+    background-color: aqua;
+}
+.shake {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(0px, 0px); }
+    25% { transform: translate(5px, 0px); }
+    50% { transform: translate(0px, 5px); }
+    75% { transform: translate(-5px, 0px); }
+    100% { transform: translate(0px, 0px); }
+}
+
+.shake:hover {
+    background-color: #45a049; 
+}
+.img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+.class3{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.jj{
+    height: 600px;
+    background-color: gray;
+}
+.elvis{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 30px;
+   
+}
+.elvis1{
+    height: 500px;
+    width: 500px;
+    background-color: aliceblue;
+    
+}
+.container{
+    text-align: center;
+    padding: 30px;
+}
